@@ -12,7 +12,7 @@ class fsdp_config:
     limit_all_gathers: bool=True
     sharding_strategy: ShardingStrategy = ShardingStrategy.HYBRID_SHARD #FULL_SHARD #HYBRID_SHARD, SHARD_GRAD_OP
     checkpoint_type: StateDictType = StateDictType.SHARDED_STATE_DICT #FULL_STATE_DICT # alternatively can use SHARDED_STATE_DICT to avoid OOMs
-    save_optimizer: bool=False
+    save_optimizer: bool=True
     verbose: bool=True
     checkpoint_folder: str="/tmp/checkpoints"
     model_save_name: str="model"
