@@ -20,6 +20,7 @@ class fsdp_config:
     dist_checkpoint_root_folder: str="/tmp/dist_checkpoints"
     dist_checkpoint_folder: str="rank0"
     save_using_num_threads: int=1
+    model_name: str="mymodel"
     
     
     
