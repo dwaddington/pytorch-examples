@@ -14,10 +14,10 @@ class fsdp_config:
     checkpoint_type: StateDictType = StateDictType.SHARDED_STATE_DICT #FULL_STATE_DICT # alternatively can use SHARDED_STATE_DICT to avoid OOMs
     save_optimizer: bool=True
     verbose: bool=True
-    checkpoint_folder: str="/tmp/checkpoints"
+    checkpoint_folder: str="/data/checkpoints"
     model_save_name: str="model"
     optimizer_name: str="optim"
-    dist_checkpoint_root_folder: str="/tmp/dist_checkpoints"
+    dist_checkpoint_root_folder: str="/data/dist_checkpoints"
     dist_checkpoint_folder: str="distchkpt"
     save_using_num_threads: int=1
     model_name: str="mymodel"
