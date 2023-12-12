@@ -15,7 +15,7 @@ class fsdp_config:
     save_optimizer: bool=False
     verbose: bool=True
     checkpoint_folder: str="/tmp/checkpoints"
-    model_save_name: str="model.pt"
-
+    model_save_name: str="model"
+    optimizer_name: str="optim"
     
     
