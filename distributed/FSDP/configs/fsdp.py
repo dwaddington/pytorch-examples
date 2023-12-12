@@ -14,8 +14,8 @@ class fsdp_config:
     checkpoint_type: StateDictType = StateDictType.FULL_STATE_DICT # alternatively can use SHARDED_STATE_DICT to avoid OOMs
     save_optimizer: bool=False
     verbose: bool=True
-    
-    
-    
+    checkpoint_folder: str="/tmp/checkpoints"
+    model_save_name: str="model.pt"
+
     
     
