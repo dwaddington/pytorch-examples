@@ -18,5 +18,6 @@ class fsdp_config:
     model_save_name: str="model"
     optimizer_name: str="optim"
     dist_checkpoint_root_folder: str="/tmp/dist_checkpoints"
+    dist_checkpoint_folder: str="rank0"
     
     
