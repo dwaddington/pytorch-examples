@@ -18,7 +18,7 @@ class fsdp_config:
     model_save_name: str="model"
     optimizer_name: str="optim"
     dist_checkpoint_root_folder: str="/tmp/dist_checkpoints"
-    dist_checkpoint_folder: str="rank0"
+    dist_checkpoint_folder: str="distchkpt"
     save_using_num_threads: int=1
     model_name: str="mymodel"
     
